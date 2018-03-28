@@ -20,12 +20,12 @@ $(document).ready(function() {
 		}
 	});
 });
-$(document).ready(function() {
-	$('.count').countTo();
-});
+// $(document).ready(function() {
+// 	$('.count').countTo();
+// });
 
 
- consoleText(['Hej!', 'Jestem Karolina.'], 'text',['tomato','lightblue']);
+consoleText(['Hej!', 'Jestem Karolina.'], 'text',['tomato','lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
